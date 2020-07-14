@@ -1,0 +1,17 @@
+{
+    "name": "calov/aula_intro_twig",
+    "authors": [
+        {
+            "name": "Rodrigo Britto Calovi",
+            "email": "rodrigo-calovi@uergs.edu.br"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    }
+}
