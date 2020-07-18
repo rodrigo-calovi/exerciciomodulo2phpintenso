@@ -17,5 +17,6 @@ new Controller('teste', [
         'Iepê',
         'Cidreira'
     ],
-    'mensagem' => 'O rato roeu a roupa do rei de Roma.'
+    'mensagem' => 'O rato roeu a roupa do rei de Roma.',
+    'data' => date('Y-m-d H:i:s')
 ]);

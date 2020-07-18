@@ -19,9 +19,9 @@
             {% endblock %}
         </section>
           
-        <footer>
-            <p>&copy; Copia não</p>
-        </footer>
+
+        {% include 'footer.twig.php' %}
+        
     </body>
 </html>
 

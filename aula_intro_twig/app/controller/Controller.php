@@ -15,6 +15,8 @@
 
             $twig->addGlobal('VAR_NAME', VAR_NAME);
 
+            $twig->addGlobal('DATE_FORMAT', 'd/m/Y H:i:s');
+
             //view/teste
             echo $twig->render($view . '.twig.php', $params);
         }

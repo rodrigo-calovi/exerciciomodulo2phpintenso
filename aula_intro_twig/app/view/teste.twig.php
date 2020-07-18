@@ -4,11 +4,17 @@
 
 <div>
 
+    <h1>{{data | date(DATE_FORMAT)}}</h1>
+
+
     <h1>{{mensagem}}</h1>
 
     {% if mensagem | length <= 40 %}
 
         <h3>{{mensagem | length }}</h3>
+
+        <h3>{{mensagem | slice (0,20) }}</h3>
+
     {% endif %}
 
     <ul>
