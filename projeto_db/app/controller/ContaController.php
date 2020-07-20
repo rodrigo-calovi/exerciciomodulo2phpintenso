@@ -4,7 +4,7 @@
 
     use app\core\Controller;
 
-    class Conta extends Controler{
+    class ContaController extends Controler{
 
         public function __construct(){
             echo 'construtor CONTA';
