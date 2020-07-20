@@ -2,7 +2,9 @@
 
     namespace app\controller;
 
-    class Login{
+    use app\core\Controller;
+
+    class Login extends Controller{
         public function __construct(){
             echo 'home login';
         }

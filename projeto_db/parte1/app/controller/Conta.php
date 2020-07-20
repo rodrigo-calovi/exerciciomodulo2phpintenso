@@ -2,7 +2,7 @@
 
     namespace app\controller;
 
-    use app\controller\Controller;
+    use app\core\Controller;
 
     class Conta extends Controler{
 
