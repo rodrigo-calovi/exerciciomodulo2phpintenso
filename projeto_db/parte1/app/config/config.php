@@ -1,4 +1,4 @@
 <?php
 
-define('BASE','/banco-online/');
+define('BASE','/exerciciomodulo2phpintenso/projeto_db/parte1/');
 
